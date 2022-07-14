@@ -158,32 +158,28 @@ void snakeMove()
 		snake.coor[0].y-=snake.speed;
 		if (snake.coor[0].y + 10 <= 0)
 		{
-			//snake.coor[0].y = HEIGHT;
-			life.life = false;
+			snake.coor[0].y = HEIGHT;
 		}
 		break;
 	case DOWN:
 		snake.coor[0].y+=snake.speed;
 		if (snake.coor[0].y - 10 >= HEIGHT)
 		{
-			//snake.coor[0].y = 0;
-			life.life = false;
+			snake.coor[0].y = 0;
 		}
 		break;
 	case LEFT:
 		snake.coor[0].x-=snake.speed;
 		if (snake.coor[0].x + 10 <= 0)
 		{
-			//snake.coor[0].x = WEIGHT;
-			life.life = false;
+			snake.coor[0].x = WEIGHT;
 		}
 		break;
 	case RIGHT:
 		snake.coor[0].x+=snake.speed;
 		if (snake.coor[0].x - 10 >= WEIGHT)
 		{
-			//snake.coor[0].x = 0;
-			life.life = false;
+			snake.coor[0].x = 0;
 		}
 		break;
 	}
@@ -283,9 +279,7 @@ void die()
 	for (int i=1; i<snake.size; i++)
 	{
 		if (snake.coor[0].x == snake.coor[i].x && snake.coor[0].y == snake.coor[i].y)
-		{
 			life.life = false;
-		}
 		
 	}
 }
@@ -314,7 +308,6 @@ void run()
 		die();
 		Sleep(speed);
 	}
-	
 	char score1[14];
 	itoa(score,score1,10);
 	
