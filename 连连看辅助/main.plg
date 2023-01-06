@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6906.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\练习_C语言\连连看辅助\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6906.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+G:\练习_C语言\连连看辅助\main.cpp(14) : error C2065: 'flagMap' : undeclared identifier
+G:\练习_C语言\连连看辅助\main.cpp(32) : error C2374: 'i' : redefinition; multiple initialization
+        G:\练习_C语言\连连看辅助\main.cpp(22) : see declaration of 'i'
+G:\练习_C语言\连连看辅助\main.cpp(34) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(34) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(39) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(39) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(39) : error C2065: 'imgSame' : undeclared identifier
+G:\练习_C语言\连连看辅助\main.cpp(40) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(40) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(40) : error C2106: '=' : left operand must be l-value
+G:\练习_C语言\连连看辅助\main.cpp(41) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(41) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(41) : error C2106: '=' : left operand must be l-value
+G:\练习_C语言\连连看辅助\main.cpp(51) : error C2374: 'i' : redefinition; multiple initialization
+        G:\练习_C语言\连连看辅助\main.cpp(22) : see declaration of 'i'
+G:\练习_C语言\连连看辅助\main.cpp(54) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(54) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(57) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(57) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(58) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(58) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(58) : error C2106: '=' : left operand must be l-value
+G:\练习_C语言\连连看辅助\main.cpp(74) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(74) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(77) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(77) : error C2109: subscript requires array or pointer type
+G:\练习_C语言\连连看辅助\main.cpp(84) : error C2040: 'flagMap' : 'int [11][19]' differs in levels of indirection from 'int'
+G:\练习_C语言\连连看辅助\main.cpp(110) : error C2065: 'Mat' : undeclared identifier
+G:\练习_C语言\连连看辅助\main.cpp(110) : error C2146: syntax error : missing ';' before identifier 'src'
+G:\练习_C语言\连连看辅助\main.cpp(110) : error C2065: 'src' : undeclared identifier
+G:\练习_C语言\连连看辅助\main.cpp(110) : error C2065: 'getScreen' : undeclared identifier
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+main.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
